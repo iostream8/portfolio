@@ -1,5 +1,6 @@
 body{
      background-image:url(./assets/istockphoto-1146532466-612x612.jpg ) ;
+     background-repeat: no-repeat;
      background-size: cover;  
      text-align: end;
 }
@@ -32,5 +33,10 @@ text-align: center;
 }
 #head2{
     color: aquamarine;
+    text-align: center;
+    
+}
+#head3{
+    color:beige;
     text-align: center;
 }
