@@ -1,0 +1,36 @@
+body{
+     background-image:url(./assets/istockphoto-1146532466-612x612.jpg ) ;
+     background-size: cover;  
+     text-align: end;
+}
+a[href^="./"]
+{
+    color: beige;
+    
+    padding:8px 12 px;
+}
+
+a[href^="./"]:hover
+{
+    color: purple;
+}
+#bg{
+   background-color: aliceblue;
+}
+#head1{
+    color: beige;
+    text-align: center;
+}
+#head1:hover{
+    
+    color: purple;
+text-align: center;
+}
+#div2
+{
+    margin: 250px;
+}
+#head2{
+    color: aquamarine;
+    text-align: center;
+}
