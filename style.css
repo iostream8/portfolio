@@ -65,7 +65,7 @@ color: azure;
     margin: auto;
     display: block;
 }
-.about-us{
+.about-us-container{
     color: beige;
      display: block;
      justify-content: left; 
@@ -73,8 +73,27 @@ color: azure;
      margin: 0px 50px;
 
 }
+.about-us-text {
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.fourth-page {
+margin-bottom:  20px;
+}
+.icons-container {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.custom-icon {
+    font-size: 42px;
+    color: white;
+    margin: 0px 18px;
+}
 @media (min-width:1024px) {
-    .about-us{
+    .about-us-container{
        
          margin: 0px 200px !important;
     
