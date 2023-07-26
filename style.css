@@ -1,23 +1,28 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
-     background-image:url(./assets/istockphoto-1146532466-612x612.jpg ) ;
+     background-image:url(./assets/black-background-with-focus-spot-light_1017-27230.avif) ;
      background-repeat: no-repeat;
      background-size: cover;  
      text-align: end;
 }
-a[href^="./"]
+.anc
 {
     color: beige;
-    
-    padding:8px 12 px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
 }
 
-a[href^="./"]:hover
+.anc:hover
 {
-    color: purple;
+    color:aquamarine;
+    text-decoration: none;
 }
-#bg{
-   background-color: aliceblue;
-}
+
 #head1{
     color: beige;
     text-align: center;
@@ -32,11 +37,46 @@ text-align: center;
     margin: 250px;
 }
 #head2{
-    color: aquamarine;
+    color:#d0ebba;
     text-align: center;
+    
     
 }
 #head3{
     color:beige;
     text-align: center;
+}
+
+.anc:hover{
+    padding:10px;
+    border:1px solid whitesmoke;
+    border-radius: 20px;
+color: azure;
+
+
+}
+#secondPage
+{
+   
+    height: 23rem;
+    width: 23rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px whitesmoke;
+    margin: auto;
+    display: block;
+}
+.about-us{
+    color: beige;
+     display: block;
+     justify-content: left; 
+     text-align: left ;
+     margin: 0px 50px;
+
+}
+@media (min-width:1024px) {
+    .about-us{
+       
+         margin: 0px 200px !important;
+    
+    }
 }
